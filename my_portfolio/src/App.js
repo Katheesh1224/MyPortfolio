@@ -1,27 +1,17 @@
-// import Land from './Components/LandingPage.jsx';
-// import Header from './Components/Header.jsx';
-// import About from './Components/About.jsx';
-// import Contact from './Components/Contact.jsx';
-// import Footer from './Components/Footer.jsx';
-// import Projects from './Components/Projects.jsx';
-// import Services from './Components/Services.jsx';
-// import Subscribe from './Components/Subscribe.jsx';
+// src/App.jsx
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import './styles/globals.css'; // Adjust path as needed
 import './App.css';
-import 'animate.css';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      ReactDOM.render(
-      <BrowserRouter>
-      
-      </BrowserRouter>,
-  document.getElementById('root')
-);
-    </div>
-    
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 

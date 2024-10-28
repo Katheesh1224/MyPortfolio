@@ -2,7 +2,7 @@ import React from "react";
 // import Image from "next/image"; // Replace with a regular <img> if needed
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-import profileImg from "../assets/images/profile.png"; // Replace the import path
+import profileImg from "../assets/images/profile.jpg"; // Replace the import path
 
 const About = () => {
   return (

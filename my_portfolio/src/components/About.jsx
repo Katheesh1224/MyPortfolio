@@ -2,7 +2,7 @@ import React from "react";
 // import Image from "next/image"; // Replace with a regular <img> if needed
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-import profileImg from "../assets/images/profile.jpg"; // Replace the import path
+import profileImg from "../assets/images/profile1.jpg"; // Replace the import path
 
 const About = () => {
   return (
@@ -14,9 +14,9 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
+            Hello! My name is Gobikatheesh and I enjoy creating things that
             live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
+            2022 when I decided to try editing custom Tumblr themes — turns out
             hacking together a custom reblog button taught me a lot about HTML & CSS!
           </p>
           <p>
@@ -91,7 +91,7 @@ const About = () => {
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
-              <img
+              <img 
                 className="rounded-lg h-full object-cover"
                 src={profileImg}
                 alt="profile"

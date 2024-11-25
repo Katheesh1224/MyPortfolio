@@ -44,7 +44,7 @@ const Banner = () => {
           </span>
         </a> */}
       </motion.p>
-      <a href="https://github.com/noorjsdivs" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/Katheesh1224" target="_blank" rel="noopener noreferrer">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

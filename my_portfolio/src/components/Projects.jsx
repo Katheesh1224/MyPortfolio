@@ -1,4 +1,4 @@
-import amazonImg from "../assets/images/amazonImg.png"; // Replace the import path
+import Portfolio from "../assets/images/Portfolio.png"; // Replace the import path
 import cyberImg from "../assets/images/cyberImg.png"; // Replace the import path
 import noorShop from "../assets/images/noorShop.png"; // Replace the import path
 import { Img } from 'react-image';
@@ -23,7 +23,7 @@ const Projects = () => {
             <div>
               <Img
                 className="w-full h-full object-contain"
-                src={amazonImg}
+                src={Portfolio}
                 alt="Amazon Clone"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -34,7 +34,7 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">My Portfolio</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
               An Amazon clone website for visualizing personalized Amazon

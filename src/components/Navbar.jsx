@@ -124,7 +124,7 @@ const Navbar = () => {
               </motion.li>
             </a>
           </ul>
-          <a href="/assets/GOBIKATHEESH.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/GOBIKATHEESH.pdf" target="_blank" rel="noopener noreferrer">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
